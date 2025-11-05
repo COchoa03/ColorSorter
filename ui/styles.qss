@@ -1,0 +1,46 @@
+* { font-family: "Segoe UI", Arial, sans-serif; }
+
+QMainWindow { background: #0b1220; }        
+QGroupBox {
+  color: #e5e7eb;
+  font-weight: 600;
+  border: 1px solid #1f2a44;
+  border-radius: 14px;
+  margin-top: 14px;
+}
+QGroupBox::title {
+  subcontrol-origin: margin;
+  left: 12px;
+  padding: 0 6px;
+  color: #aab1c3;
+}
+
+QLabel { color: #e5e7eb; }
+QPushButton {
+  color: #e5e7eb;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid #263454;
+  background: #13203a;
+}
+QPushButton:hover { background: #1a2a4d; }
+
+/* Badges */
+#BadgeOk    { background: #143d26; border: 1px solid #1ea567; color: #d8ffe9; border-radius: 8px; padding: 4px 8px; }
+#BadgeWarn  { background: #402107; border: 1px solid #f59e0b; color: #ffdfb4; border-radius: 8px; padding: 4px 8px; }
+#BadgeOff   { background: #2b2f3a; border: 1px solid #3b4256; color: #aab1c3; border-radius: 8px; padding: 4px 8px; }
+
+/* Tarjeta color actual */
+#ColorCard {
+  border: 1px solid #1f2a44;
+  border-radius: 16px;
+  background: #0f1830;
+  padding: 14px;
+}
+#ColorTitle { color: #aab1c3; font-weight: 700; }
+#ColorValue { font-size: 30px; font-weight: 800; }
+
+/* Contadores */
+#CountNumber { font-size: 34px; font-weight: 800; }
+#RedTitle  { color: #ff6b6b; font-weight: 700; }
+#BlueTitle { color: #7aa2ff; font-weight: 700; }
